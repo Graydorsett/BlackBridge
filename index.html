@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Black Bridge</title>
+
+    <link href="style.css" rel="stylesheet">    
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+
+</head>
+<body>
+    <div class="body">
+        <div class="header">
+            <img src="assets/logo3.png" id="logo">
+        </div>
+        <div class='container sized main'>
+            <div class="row">
+                <div class="col-xs-1">
+                    <img class="button" src='assets/questionWhite.png' onclick="help()">
+                </div>
+                <div class="col-xs-10">
+                    <input type="text" name="form" onkeyup="formChanged()" onchange="formChanged()"  placeholder="What would you like to know?"/>
+                </div>
+                <div class="col-xs-1">
+                    <img src="assets/enterWhite.png" onclick="clickFunction()" class="button">
+                </div>
+            </div>
+        </div>
+        <div class="container sized">
+            <div class="row" id="resultRow">
+                <div class="col-sm-4">
+                    <img id="resultImage" src="assets/icons/help.png">
+                </div>
+                <div class="col-sm-8" id='titleCont'>
+                    <h2 id="resultTitle">What can you ask?</h2>
+                </div>
+            </div>
+            <div class="row" id="resultBody">
+                <p></p>
+            </div>
+            <div class="row" id="resultBody">
+                <p></p>
+            </div>
+            <ul id="resultList">
+                <li style="text-align:center">What is the weather like in Seattle?</li>
+                <li><br/></li>
+                <li style="text-align:center">How far is it to Portland?</li>
+                <li><br/></li>
+                <li style="text-align:center">How do I make a moscow mule?</li>
+                <li><br/></li>
+                <li style="text-align:center">What is the latest world news?</li>
+                <li><br/></li>
+            </ul>
+        </div>
+        
+        
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<!--
+    <script src="http://feeds.financialcontent.com/account_name/JSQuote?Ticker=CSCO">
+ </script>
+-->
+<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDKKBQF68Z_oUWiKCf9evYPC3yCo9kE7vo'></script>
+<script src="./scripts.js"></script>
+
+    
+</body>
+</html>

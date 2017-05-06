@@ -1,0 +1,112 @@
+html {
+    background-color: #1D1D1D;
+    font-family: 'Roboto', sans-serif;
+}
+
+.body {
+    text-align: center;
+    color: white;
+    background-color: #1D1D1D;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: #121212;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 90px;
+}
+
+#logo {
+    width: 60vw;
+    max-width: 600px;
+}
+
+.sized {
+    max-width: 700px;
+    text-align: center;
+}
+
+.main{
+    margin-bottom: 80px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid grey;
+    background-color: #1D1D1D;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    transition: all 0.5s ease;
+}
+
+input[type=text]:hover {
+        border-bottom: 2px solid white;
+}
+
+input[type=text]:active {
+        border-bottom: 2px solid white;
+}
+
+.button {
+    padding-top: 20px;
+    width: 35px;
+    opacity: .5;
+    transition: all 0.5s ease;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+
+/*/////////////RESULTS///////////////*/
+#resultRow {
+    margin-bottom: 20px;
+}
+
+#resultTitle {
+    text-align: left;
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 50px;
+    padding-left: -10px;
+}
+
+#resultImage {
+    width: 100px;
+    text-align: right;
+}
+
+#resultBody {
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 15px;
+}
+
+#resultList {
+    text-align: left;
+    font-size: 17px;
+    list-style: none;
+    margin-left: 30px;
+}
+
+.listTitle {
+    font-size: 20px;
+}
+
+#listSub {
+    margin-bottom: 15px;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+li {
+    font-size: 20px;
+}
